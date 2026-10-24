@@ -55,11 +55,7 @@ export default function App() {
     : shipmentAnalysis.vehiclesUnmerged;
 
   // 2. Tablodaki sürücü GSM bilgilerini 1. tablodan gelen araç listesine eşleştirerek ekle
-  const {
-    enrichedVehicles: activeVehicles,
-    rowsWithMatchFlags: gsmRowsWithFlags,
-    matchedVehicleCount,
-  } = useMemo(
+  const { enrichedVehicles: activeVehicles } = useMemo(
     () => matchVehiclesWithGsmTable(baseVehicles, gsmAnalysis),
     [baseVehicles, gsmAnalysis]
   );
@@ -269,9 +265,6 @@ export default function App() {
               rawText={rawGsmExcelText}
               onChangeRawText={setRawGsmExcelText}
               analysis={gsmAnalysis}
-              rowsWithMatchFlags={gsmRowsWithFlags}
-              matchedVehicleCount={matchedVehicleCount}
-              totalVehicleCount={activeVehicles.length}
               customMapping={customGsmMapping}
               onUpdateMapping={setCustomGsmMapping}
               onLoadSample={() => {
