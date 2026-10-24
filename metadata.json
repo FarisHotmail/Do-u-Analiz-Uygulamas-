@@ -1,0 +1,6 @@
+{
+  "name": "Doğu Sevkiyat Araç Analizi",
+  "description": "Excel sevkiyat tablolarından DAHİL ve HARİÇ il listelerine göre doğu güzergahına gidecek araçları otomatik ayrıştıran ve formatlayan web uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

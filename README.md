@@ -1,11 +1,13 @@
-<div align="center">
+# Doğu Sevkiyat Araç Analizi
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Excel sevkiyat tablolarından **FİRMA = ENLOG** ve **DAHİL** il listesine göre doğu güzergahına gidecek araçları ayrıştıran, ikinci Excel tablosundan sürücü **GSM** bilgilerini otomatik eşleştiren web uygulaması.
 
-  <h1>Built with AI Studio</h2>
+## Online Kullanım (GitHub Pages)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Uygulamanın derlenmiş hazır dosyaları `/docs` klasöründe yer almaktadır:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+1. GitHub deponuzda (**FarisHotmail/Do-u-Analiz-Uygulamas-**) üst menüden **Settings** sekmesine tıklayın.
+2. Sol menüden **Pages** bölümüne girin.
+3. **Branch** kısmında `main` dalını ve yanındaki klasör kutusunda `/docs` seçeneğini seçip **Save** butonuna basın.
+4. Yaklaşık 30 saniye içinde uygulamanız şu adreste online açılacaktır:
+   `https://farishotmail.github.io/Do-u-Analiz-Uygulamas-/`
